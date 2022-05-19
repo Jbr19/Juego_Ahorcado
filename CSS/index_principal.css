@@ -1,0 +1,60 @@
+.hidden {
+    color: transparent;
+
+}
+
+
+body{
+    background-image: url(fondo.jpg);
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#usedLetters {
+    position: absolute;
+    top: 273px;
+    right: 414px;
+}
+
+#wordContainer {
+    margin-top: 20px;
+    position: absolute;
+    top: 316px;
+    right: 278px;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.letter {
+    margin: 0 7px;
+    position: relative;
+    text-align: center;
+}
+
+.letter::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    min-width: 12px;
+}
+
+#footer {
+    position: absolute;
+    top: 841px;
+}
+
+
+
+
+
+

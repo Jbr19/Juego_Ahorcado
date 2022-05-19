@@ -1,0 +1,175 @@
+#startButton {
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: #636262;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#startButton:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#PalabraNueva{
+    position: absolute;
+    top: 146px;
+    left: 785px;
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: #636262;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#PalabraNueva:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#AgregarPalabra {
+    position: absolute;
+    top: 600px;
+    right: 690px;
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    width: 155px;
+    padding: 10px;
+    background: #636262;
+    color: #fff;
+    font-weight: 60;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+#AgregarPalabra:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#CancelBoton {
+    position: absolute;
+    top: 600px;
+    left: 685px;
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    width: 155px;
+    padding: 10px;
+    background: #636262;
+    color: #fff;
+    font-weight: 60;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#CancelBoton:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#CancelBoton1 {
+    position: absolute;
+    left: 810px;
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: #636262;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+ 
+
+}
+
+#CancelBoton1:hover {
+    opacity: 0.6;
+    text-decoration: none;
+
+}
+
+#SeguirJugando {
+    position: absolute;
+    top: 126px;
+    left: 810px;
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: #636262;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+#SeguirJugando:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#inicio {
+    position: absolute;
+    top: 600px;
+    left: 880px;
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    width: 155px;
+    padding: 10px;
+    background: #636262;
+    color: #fff;
+    font-weight: 60;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#inicio:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#EscribirPalabra {
+    background: transparent;
+    position: absolute;
+    left: 671px;
+    top: 113px;
+    height: 50%;
+    width: 30%;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+
+
+}

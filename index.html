@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="javaScript/index_principal.js" defer></script>
+        <script type="text/javascript" src="javaScript/Agregador_de_palabra.js" defer></script>
+        <script type="text/javascript" src="javaScript/palabras.js" defer></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="CSS/index_principal.css">
+        <link rel="stylesheet" href="CSS/diseños_botones.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <title>Juego el Ahorcado</title>
+
+    </head>
+    <header>
+        <div>
+            <h1>El Ahorcado</h1>
+             <div id="usedLetters"></div>
+            </div>
+             <div id="wordContainer"></div>
+            <button id="startButton">Iniciar Juego</button>
+            <button id="PalabraNueva">Agregar nueva palabra</button>
+            <button id="AgregarPalabra" style="display:none">Agregar Palabra</button>
+            <button id="CancelBoton" style="display:none" value="Actualizar" onclick="location.reload()">Cancel</button>
+            <button id="CancelBoton1" style="display:none" value="Actualizar1" onclick="location.reload()">Terminar Juego</button>
+            <button id="SeguirJugando" style="display:none">Seguir Jugando</button>
+            <button id="inicio" style="display:none">Iniciar Juego</button>
+
+            <input id="EscribirPalabra"   maxlength="16" onKeyUp="this.value=this.value.toUpperCase();" style="display:none" required placeholder="introdusca el texto aqui"></input>
+           
+
+    </header>
+
+    <body>
+
+        <canvas id="canvas" width = "1200" height="800"></canvas>
+
+    </body>
+
+    <footer id="footer">
+        <p>
+        <a>Hecho por Jose E Baez de Puerto Rico &copy Copyright 2022</a>    
+         <a href="mailto:jose.enrique.baez"><img border="0" alt="jose.enrique.baez@gmail.com" src="img/gmail logo.png" width="40" height="40"></a>
+         <a href="https://github.com/Jbr19"><img border="0" alt="GitHub" src="img/github logo.png" width="40" height="40"></a>
+        </p>
+    </footer>
+</html>
